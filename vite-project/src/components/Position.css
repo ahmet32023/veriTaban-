@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: blanchedalmond;
+  }
+  
+  .section {
+    width: 30%;
+  }
+  
+  .input-section {
+    margin-bottom: 20px;
+  }
+  
+  .post-info, .delete-info, .created-post-info {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
+  .post-info h2, .delete-info h2, .created-post-info h2 {
+    margin-top: 0;
+  }
+  
+  .input-section input[type="text"], .input-section textarea {
+    width: calc(100% - 30px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-section button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-info p, .created-post-info p {
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  
